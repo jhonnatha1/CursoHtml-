@@ -1,9 +1,38 @@
-header {
-    background-color:#4CAF50 ;
-    padding: 20px;
+header{
+    background-color: #333;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    text-align: left;
+    padding: 0px 50px;
+}
+
+header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0px;
+    overflow: hidden;
     color: white;
     text-align: center;
 }
-nav ul {
-    list-style: none 
+
+header li {
+    float: right; /* aqui ajustamos a posição do nosso hamburger */
+}
+/* "li" define cada item, "a" é uma ancora para cada link individual  */
+header li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+header li a:hover {
+    background-color: #3bb602;
+    /* muda a ao passar o mause  */
+}
+.active{
+    background-color: #04AA6D;
 }
