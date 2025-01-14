@@ -46,3 +46,38 @@
     background-color: #04AA6D; /* cor ao passar com o rato */
     border-radius: 4px;
   }
+h2 {
+  font-size: 60px;
+  font-size: 'bold';
+  text-transform: uppercase;
+}
+p {
+  font-size: 23px;
+
+}
+.content-section {
+  display: flex;
+  align-items: center; /* Alinha imagem e texto verticalmente */
+  gap: 20px; /* Espaço entre a imagem e o texto */
+  margin: 20px;
+}
+
+.content-section img {
+  max-width: 300px; /* Limita a largura da imagem */
+  height: auto; /* Mantém a proporção da imagem */
+  border-radius: 10px; /* Bordas arredondadas (opcional) */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra para destaque (opcional) */
+}
+
+.content-section .text {
+  flex: 1; /* Faz o texto ocupar o espaço restante */
+}
+
+.content-section h2 {
+  margin: 0 0 10px;
+}
+
+.content-section p {
+  margin: 0;
+  line-height: 1.6; /* Facilita a leitura */
+}
