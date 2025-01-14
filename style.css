@@ -1,38 +1,48 @@
-header{
-    background-color: #333;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    color: white;
-    text-align: left;
-    padding: 0px 50px;
-}
 
-header ul {
+  header {
+    background-color: #000000;
+    height: 40px;
+    display: flex;
+    justify-content: space-between; /* Espaça os itens no cabeçalho */
+    align-items: center;
+    color: rgb(255, 253, 253);
+    padding: 0px 20px; /* Espaçamento lateral menor no header */
+    box-sizing: border-box;
+  }
+  html { 
+    background-color: #ffffff; 
+  } 
+  body {
+      min-height: 100vh;
+      max-width: 75%;
+      background-color: #ffffff; 
+      margin: 0 auto;
+  }
+  header ul {
     list-style-type: none;
     margin: 0;
-    padding: 0px;
-    overflow: hidden;
-    color: white;
-    text-align: center;
-}
+    padding: 0;
+    display: flex; /* Torna os itens flexíveis e alinhados */
+  }
 
-header li {
-    float: right; /* aqui ajustamos a posição do nosso hamburger */
-}
-/* "li" define cada item, "a" é uma ancora para cada link individual  */
-header li a {
+  header li {
+    margin-left: 10px; /* Espaço entre os itens */
+  }
+
+  header li a {
     display: block;
     color: white;
     text-align: center;
-    padding: 14px 16px;
+    padding: 8px 12px; /* Espaçamento interno */
     text-decoration: none;
-}
+  }
 
-header li a:hover {
-    background-color: #3bb602;
-    /* muda a ao passar o mause  */
-}
-.active{
-    background-color: #04AA6D;
-}
+  header li a:hover {
+    background-color: #2779a7;
+    border-radius: 4px; /* Cantos arredondados */
+  }
+
+  .active {
+    background-color: #04AA6D; /* cor ao passar com o rato */
+    border-radius: 4px;
+  }
