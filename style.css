@@ -1,6 +1,6 @@
 
   header {
-    background-color: #01aa0a;
+    background-color: #ffffff;
     height: 90px;
     display: flex;
     justify-content: space-between; /* Espaça os itens no cabeçalho */
@@ -9,10 +9,11 @@
     padding: 0px 40px; /* Espaçamento lateral menor no header */
     box-sizing: border-box;
   }
-  logo {
-    width: 200;
+  #logo {
+    width: 200px;
+  
   }
-  html { 
+  html {
     background-color: #ffffff; 
   } 
   body {
@@ -34,7 +35,7 @@
 
   header li a {
     display: block;
-    color: white;
+    color: rgb(0, 0, 0);
     text-align: center;
     padding: 8px 12px; /* Espaçamento interno */
     text-decoration: none;
@@ -49,10 +50,22 @@
     background-color: #04AA6D; /* cor ao passar com o rato */
     border-radius: 4px;
   }
-h2 {
+  h1 {
   font-size: 60px;
   font-size: 'bold';
+  display: flex;
+  justify-content: center; /* Centraliza horizontalmente */
+  align-items: center; /* Centraliza verticalmente */
+  height: 10px; /* Altura do container */
   text-transform: uppercase;
+  
+}
+.conteinerh1{
+  background-color: aqua;
+  height: 200px;
+  padding-top: 10%;
+  justify-content: center; /* Centraliza horizontalmente */
+  align-items: center; 
 }
 p {
   font-size: 23px;
