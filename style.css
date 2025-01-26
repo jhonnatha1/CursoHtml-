@@ -3,7 +3,7 @@
     background-color: #bebebe; 
   } 
   header {
-    background-color: #ffffff;
+    background-color: #EEEEEE;
 
     height: 90px;
     display: flex;
@@ -22,7 +22,7 @@
   body {
       min-height: 100vh;
       max-width: 100%;
-      background-color: #ffffff; 
+      background-color: #EEEEEE; 
       margin: 0 auto;
   }
   header ul {
@@ -42,7 +42,7 @@
   }
 
   header li a:hover {
-    background-color: #2779a7;
+    background-color: #76ABAE;
     border-radius: 4px; /* Cantos arredondados */
   }
 
@@ -59,19 +59,34 @@
 }
 .mdteam {
   height: 300px;
-  padding: 80px;
   display: flex; 
   justify-content: center;
   align-items: center;
 }
 p {
-  font-size: 23px;
+  font-size: 28px;
+  color: rgb(49, 54, 63);
+  padding-left: 40px; 
+}
 
+h2 {
+  font-size: 40px; 
+  color: 222831(244 0% 0%);  
+  padding-left: 40px;  
+}
+.quem-somos{
+  width: 45%;
+}
+ul {
+  font-size: 23px;
+  padding-left: 40px; 
 }
 
 
 
 
+
+/*-------------------------------------------Slide---------------------------*/
 * {box-sizing:border-box}
 
 /* Slideshow container */
@@ -160,3 +175,4 @@ p {
   from {opacity: .4}
   to {opacity: 1}
 }
+/*-------------------------------------------Slide---------------------------*/
